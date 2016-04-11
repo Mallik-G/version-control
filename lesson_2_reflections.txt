@@ -39,6 +39,10 @@ merged branch takes the name of the currently checked out branch.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
-PROS: faster; simple; merge conflicts are presented in a logical manner
-CONS: conflicts may arise and make the merge more complicated; if you don't understand how merging
-works, the merged file may have different contents than you expect it to
+PROS:
+- faster
+- simple
+- merge conflicts are presented in a logical manner
+CONS:
+- conflicts may arise and make the merge more complicated
+- if you don't understand how merging works, the merged file may not be what you expected
