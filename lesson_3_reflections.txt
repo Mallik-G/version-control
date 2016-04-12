@@ -24,6 +24,15 @@ You can access all of the remote commits offline up to the last sync.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
+You and your collaborators could email files between one another, use Dropbox, etc. and manually
+track versions. Git and GitHub is much easier since the software automates the manual tracking
+procecss.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
+You would want to make changes in a separate branch when you don't want to mess with the master
+branch (i.e. when collaborating and someone else owns the project and therefore controls the master
+branch). Working directly in the master branch is appropriate when you are the only one working on
+the project and therefore don't care about others adding their own features to your base code.
+Benefits for separate branch: collaboration is promoted.
+Benefits for master: simpler, but collaboration not promoted.
